@@ -1,2 +1,2 @@
 # amazonmws-go
-API Client library for Amazon MWS including Orders, Streams, etc.
+API Client library for Amazon MWS including Orders, Reports, Feeds, etc. APIs
