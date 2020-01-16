@@ -3,7 +3,7 @@ API Client library for Amazon MWS including Orders, Reports, Feeds, etc. APIs
 
 Initialize Client with Credentials:
 
-    creds := amazonmwsapi.Creds{CompanyName: "CCT"}
+    creds := amazonmwsapi.Creds{}
     mustMapEnv(&creds.AccessID, "ACCESS_ID", "")
     mustMapEnv(&creds.AccessKey, "ACCESS_KEY", "")
     mustMapEnv(&creds.Merchant, "MERCHANT_ID", "")
